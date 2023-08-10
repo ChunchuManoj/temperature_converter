@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right,rgb(190, 64, 64),rgb(80, 218, 204),rgb(84, 197, 49));
+    
+  }
+  
+  h1 {
+    color: #333;
+    background: rgba(117, 10, 129, 0.201);
+  }
+  
+  input {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  

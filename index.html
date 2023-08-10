@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Temperature Converter</h1>
+  <div>
+    <input type="number" id="temperatureInput" placeholder="Enter temperature">
+    <br>
+    <input type="radio" id="celsiusRadio" name="units" value="celsius" checked>
+    <label for="celsiusRadio">Celsius</label>
+    <input type="radio" id="fahrenheitRadio" name="units" value="fahrenheit">
+    <label for="fahrenheitRadio">Fahrenheit</label>
+    <br>
+    <button onclick="convertTemperature()">Convert</button>
+  </div>
+  <br>
+  <p id="result"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
